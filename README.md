@@ -13,9 +13,30 @@ This project analyzes an archaeological dataset to determine which provinces of 
 This dataset was created by merging two datasets provided by Epigraphic Database Heidelberg (EDH), a large project aimed at collecting Roman inscriptions from around the world. The project is run by Heidelberg University, Germany, with support from many other institutions around the world. This dataset contains detailed information on many inscriptions, including province, city, coordinates, year of find, and notable words in the inscription.
 
 ## Usage
-To run the program, simply run the python code, and make sure space is available for the CSV that will be downloaded. 
+To run the program, simply run the Python code, and make sure space is available for the CSV that will be downloaded. 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Rain Forecaster
+
+## Description
+The Rain Forecaster is a Python script designed to predict rain based on geographical coordinates (latitude and longitude). It utilizes the National Weather Service's API to fetch real-time weather data, specifically focusing on identifying the occurrence of rain. 
+## Usage Instructions
+1. **Entering Coordinates**: When prompted, enter the latitude and longitude in the format `xx.xxxx,-yy.yyyy`. Ensure the coordinates are accurate to get the correct weather forecast.
+2. **Running the Script**: Execute the script in a Python environment. It automatically connects to the National Weather Service's API and fetches the hourly weather forecast for the provided coordinates.
+3. **Interpreting Results**: The script processes the fetched data and identifies if there's a rain forecast in the upcoming hours. It stops and displays the forecast as soon as it encounters a prediction of rain.
+4. **Dependencies**: Ensure that the `requests` library is installed in your Python environment, as the script uses this to make HTTP requests.
+
+## Credits
+- **National Weather Service (NWS)**: This script relies on the NWS API for weather data. The NWS provides reliable and up-to-date weather information.
+
+## Disclaimer
+- The accuracy of the rain forecast is subject to the data provided by the National Weather Service.
+
+## Contact
+For any queries or issues related to the script, users can reach out to the script's maintenance team or the National Weather Service for API-related inquiries.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 These two files should satisfy the requirements that I had leftover:
 
