@@ -17,7 +17,7 @@ To run the program, simply run the Python code, and make sure space is available
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Rain Forecaster
+# Rain Forecaster
 
 ## Description
 The Rain Forecaster is a Python script designed to predict rain based on geographical coordinates (latitude and longitude). It utilizes the National Weather Service's API to fetch real-time weather data, specifically focusing on identifying the occurrence of rain. 
