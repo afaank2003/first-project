@@ -14,6 +14,3 @@ This dataset was created by merging two datasets provided by Epigraphic Database
 To run the program, simply run the python code, and make sure space is available for the CSV that will be downloaded. 
 
 
-
-## License
-The license used is Attribution-ShareAlike 4.0 International
